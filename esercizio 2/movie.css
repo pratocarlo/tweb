@@ -1,0 +1,145 @@
+body{
+	background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png);
+	margin:0;
+}
+
+p {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 8pt;
+}
+
+span {
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+.banner1 {
+	display : block;
+	background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png);
+	height: 50px;
+	background-repeat: repeat-x;
+}
+
+.imgcenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 24pt;
+	font-family: Tahoma,Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+	text-align: center;
+}
+
+.aligned {
+	background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png);
+	background-repeat: repeat-x;
+	height: 83px;
+}
+
+.valutazione{
+	color: red;
+	font-size: 48pt;
+	font-weight: bold; 
+	vertical-align : top;
+}
+
+.rightimg {
+	margin-top: 0;
+	margin-right: auto;
+}
+
+dl {
+	padding-left: 10pt;
+	padding-right: 10pt;
+}
+
+ul {
+	list-style: none;
+	margin : 0;
+	padding: 0;
+}
+
+dt {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+.quote {
+	font-weight: bold;
+	font-size: 8pt;
+	background-color: #E8DC9B;
+	border: solid grey 2px;
+	border-radius: 10px;
+	padding: 8px;
+	overflow: hidden;
+}
+
+p img {
+	float:left;
+	margin-right: 5px;
+	width: 25px;
+}
+
+.leftalign {
+	float : left;
+	width : 47%;
+	margin-left: 2%; 
+}
+
+.rightalign {
+	float : right;
+	width : 47%; 
+	margin-right: 2%; 
+}
+
+.bar {	
+	clear : both;
+	background-color: #A2B964;
+	text-align: center;
+	border : 5px solid #A2B964;
+}
+
+.centralbox {
+	width: 800px;
+	border: 4px solid grey;
+	border-radius: 10px;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.leftbar {
+	width : 550px;
+	overflow : hidden;
+	
+}
+
+.rightbar {
+	background-color: #A2B964;
+	width: 250px;
+	float: right;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	
+}
+
+.validator {
+	float: right;
+	opacity: 0.5;
+	position : fixed;
+	right: 2px;
+	bottom :2px;
+}
+
+.critic {
+	margin-bottom : 20px;
+	margin-top: 10px;
+}
+
